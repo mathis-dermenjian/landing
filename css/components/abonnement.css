@@ -1,0 +1,31 @@
+.abonnements {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.abonnement {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin: 10px;
+    width: 500px;
+    margin-bottom: 10px;
+      flex-grow: 1;
+      flex-direction: column;
+}
+
+.abonnement h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.abonnement p {
+    font-size: 16px;
+}
+
+.abonnement:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); 
+}
